@@ -1,0 +1,34 @@
+/* 
+    Element selector : select Html Element by using it's name
+    class selector : Class property .classname
+    id selector : id property #idname
+    atribute selector : html element attribute
+*/
+
+/* Element selctor */
+p{
+    color: red;
+}
+
+/* attribute selector */
+
+p[title="attr"]{
+    color: chartreuse;
+}
+
+/* class selector */
+
+.cls{
+    color: cyan;
+}
+
+/* id selector */
+
+#id1{
+    color: darkblue;
+}
+
+
+body{
+    background-color: black;
+}

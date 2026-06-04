@@ -1,0 +1,15 @@
+Web devlopement :- 
+
+HTML -> Hyper text markup language (Skelton devloping)
+CSS -> CSS Cascading Style Sheet (Animation,color,position) 
+Js -> JavaScript (Logic)
+
+CSS :- 
+    Cascading :- Water Fall Effect 
+    Style sheet :- Style File 
+
+CSS :- 3 ways
+    Inline CSS -> style
+    Internal CSS -> style HTML Tag
+    External CSS -> Link tag (.css file link)
+

@@ -1,0 +1,27 @@
+/* 
+    1px -> 1/92 inches a6px default font-size based on browser settings
+    % -> parent element font-size
+    1rem -> root element actual font size 
+    1em -> parent element actual font size
+    1vh -> viewport hieght 
+    1vw -> viewport width
+
+    *(aestrik) -> universal selector/reset selector
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    font-size: 32px;
+}
+
+p{
+    /* font-size: 16px; */
+    /* font-size: 50%; */
+    font-size: 1em;
+}

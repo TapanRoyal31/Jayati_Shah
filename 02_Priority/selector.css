@@ -1,0 +1,17 @@
+/* id > class > attribute > element */
+
+p[title="selector"]{
+    color: blue !important;
+}
+
+p{
+    color: red;
+}
+
+#id1{
+    color: cornflowerblue; 
+}
+.sel{
+    color: blueviolet;
+}
+
