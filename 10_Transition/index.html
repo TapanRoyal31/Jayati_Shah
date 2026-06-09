@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #212121;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .box{
+        height: 250px;
+        width: 250px;
+        border: 2px solid red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 1s ease;
+    }
+    .box:hover{
+        transform:translate(100px) rotate(60deg);
+        border: 5px solid orangered;
+    }
+</style>
+<body>
+    <div class="box">css trantision</div>
+</body>
+</html>

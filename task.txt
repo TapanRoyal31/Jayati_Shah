@@ -1,2 +1,4 @@
 1) make 4 paragraph and give color using different color function
 
+Tuesday
+position transition transform animation
