@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #212121;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .ele::after {
+      content: "";
+      display: block;
+      width: 100px;
+      height: 5px;
+      background: linear-gradient(45deg,red 40%,blue 50%);
+      margin-top: 5px;
+    }
+  </style>
+  <body>
+    <h1 class="ele">Actual element</h1>
+  </body>
+</html>

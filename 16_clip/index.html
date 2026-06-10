@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #212121;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .box {
+      height: 250px;
+      width: 250px;
+      /* clip-path: polygon(0% 0%, 92.45% 28.14%, 21.25% 43.25%, 75% 75%, 100% 100%, 0% 100%); */
+      /* filter: blur(2px);
+      filter: brightness(50%);
+        filter: contrast();
+        filter: opacity(20%); */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 84px;
+      background-image: linear-gradient(red 40%, blue 60%);
+      background-size: cover;
+      background-position: center;
+      background-clip: text;
+      color: transparent;
+    }
+  </style>
+  <body>
+    <div class="box">CSS Text</div>
+  </body>
+</html>
